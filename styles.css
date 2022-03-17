@@ -10,6 +10,13 @@
 
 hr {
   opacity: 1;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#titleHr {
+  margin-top: -5px;
+  margin-bottom: 25px;
 }
 
 .roboto {
@@ -53,10 +60,9 @@ hr {
 }
 
 #mainTitle {
-  border-bottom: 1px solid black;
   margin-top: 45px;
   padding-left: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 
 #mainContent {
@@ -64,9 +70,18 @@ hr {
 }
 
 #food {
-  border-top: 1px solid black;
   margin-left: 170px;
   margin-right: 170px;
+}
+
+.foodHr {
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+#mobileNav {
+  margin: 0px 200px 0px 0px;
+  background-color: black;
 }
 
 .container-fluid {
@@ -100,6 +115,15 @@ hr {
 
 .navbar {
   height: 80px;
+  background-color: #333a40 !important;
+}
+
+.nav-link {
+  margin-right: 50px;
+}
+
+.navbar-nav {
+  margin-left: 50px;
 }
 
 #orderTable {

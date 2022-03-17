@@ -59,6 +59,7 @@ fetch(url)
       showFood(drinks);
     };
 
+    cartIcon.onmouseover = () => (cartIcon.style.cursor = "pointer");
     cartIcon.onclick = () => {
       orderResume(cart);
     };
@@ -100,7 +101,7 @@ function addToCart(element, i) {
   }
 }
 
-function orderResume(cart) {
+function orderResume() {
   title.innerText = "ORDER DETAIL";
   const contents = document.querySelector("#foodList");
   contents.innerHTML = "";
@@ -166,10 +167,11 @@ function remove(i) {
 }
 
 function cancelO() {
-  if (confirm("Esta seguro?")) {
+  if (confirm("Are you sure about cancelling the order ?")) {
     cart.length = 0;
     orderResume(cart);
   }
+  document.querySelector("#cartItems").innerText = "";
 }
 
 function confirmO() {
