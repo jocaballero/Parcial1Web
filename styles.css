@@ -1,11 +1,132 @@
 .rochester {
-  font-family: Rochester;
+  font-family: "Rochester", cursive;
+  font-size: 48px;
+  padding-top: 20px;
 }
 
-img {
+#banner {
   width: 100%;
+}
+
+hr {
+  opacity: 1;
 }
 
 .roboto {
   font-family: Roboto;
+  font-size: 30px;
+}
+
+.card {
+  width: 262px;
+  height: auto;
+  margin: 5px 5px 5px 5px;
+}
+
+.foodPhoto {
+  width: 175px;
+  height: 130px;
+  min-width: 175px;
+  min-height: 130px;
+  object-fit: cover;
+  margin-top: 15px;
+  margin-left: 46px;
+  margin-right: 41px;
+}
+
+.card-title {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card-text {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.price {
+  font-family: Roboto;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+#mainTitle {
+  border-bottom: 1px solid black;
+  margin-top: 45px;
+  padding-left: 40px;
+  margin-bottom: 25px;
+}
+
+#mainContent {
+  margin-top: 30px;
+}
+
+#food {
+  border-top: 1px solid black;
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+.container-fluid {
+  padding: 0px 0px 0px 0px;
+  overflow: hidden;
+}
+
+#cart {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+#foodList {
+  margin: 10px 15px 0px 15px;
+  align-content: center;
+}
+
+.btn-primary {
+  background-color: #f2a950;
+  border: 1px solid #cccccc;
+  border-radius: 0px;
+  height: 33px;
+}
+
+#cartItems {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.navbar {
+  height: 80px;
+}
+
+#orderTable {
+  margin: 0px 20px 0px 20px;
+}
+
+.align-left {
+  float: left;
+  width: 60%;
+}
+.align-right {
+  float: right;
+  width: 17%;
+}
+
+.cancel {
+  background-color: #8c162c;
+}
+
+.confirm {
+  background-color: #708c32;
+}
+
+#pageFooter {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 35px;
+  margin-bottom: 15px;
 }
